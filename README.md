@@ -1,24 +1,26 @@
-# README
+# Gru (inventos-digitais-challenge)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project from Inventos Digitais developer challenge
 
-Things you may want to cover:
+To run this project you need to have:
 
-* Ruby version
+- **Ruby 2.5.0**
 
-* System dependencies
+## Setup the project
+```
+$ git clone https://github.com/lfnascimento/gru.git
+$ cd gamora
+$ bin/setup
+$ bundle exec rspec - Run the tests to check if everything is working ok
+```
 
-* Configuration
+## Running the project
 
-* Database creation
+1. ```$ bundle exec rails server```
+2. open http://localhost:3000
 
-* Database initialization
+## Checking coverage
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ coverage=on bundle exec rspec - generate the coverage report then open the file coverage/index.html
+```
