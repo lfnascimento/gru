@@ -42,6 +42,7 @@ group :development do
 end
 
 group :test do
+  gem 'rails-controller-testing' 
   gem 'rspec-rails', '~> 3.8'
   gem 'shoulda-matchers', '~> 3.1', require: false
   gem 'cucumber-rails', '~> 1.5.0' , require: false
