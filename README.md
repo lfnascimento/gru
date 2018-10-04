@@ -9,7 +9,7 @@ To run this project you need to have:
 ## Setup the project
 ```
 $ git clone https://github.com/lfnascimento/gru.git
-$ cd gamora
+$ cd gru
 $ bin/setup
 $ bundle exec rspec - Run the tests to check if everything is working ok
 ```
