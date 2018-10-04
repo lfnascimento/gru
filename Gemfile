@@ -23,6 +23,7 @@ gem 'bootstrap', '~> 4.1.2'
 gem 'simple_form', '~> 3.5.0'
 gem 'responders', '~> 2.4.0'
 gem 'devise', '~> 4.5.0'
+gem 'omniauth-facebook', '~> 5.0.0'
 
 group :development, :test do
   gem 'sqlite3'
