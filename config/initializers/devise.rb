@@ -288,4 +288,8 @@ Devise.setup do |config|
   #   include Turbolinks::Controller
   # end
   config.omniauth :facebook, ENV['FACEBOOK_ID'], ENV['FACEBOOK_SECRET']
+  config.warden do |manager|
+    manager.failure_app = CustomFailure
+  end
+  
 end
