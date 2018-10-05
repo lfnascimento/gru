@@ -1,6 +1,6 @@
 describe 'Landing page', type: :system do
   
-  let!(:order_button_link_xpath) { '/html/body/div/div/a' }
+  let!(:order_button_link_xpath) { '/html/body/div/div/div/div[2]/a' }
   
   before { visit root_url }
 
