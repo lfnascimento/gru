@@ -23,6 +23,7 @@ gem 'bootstrap', '~> 4.1.2'
 gem 'simple_form', '~> 3.5.0'
 gem 'responders', '~> 2.4.0'
 gem 'devise', '~> 4.5.0'
+gem 'omniauth-facebook', '~> 5.0.0'
 
 group :development, :test do
   gem 'sqlite3'
@@ -45,7 +46,6 @@ group :test do
   gem 'rails-controller-testing' 
   gem 'rspec-rails', '~> 3.8'
   gem 'shoulda-matchers', '~> 3.1', require: false
-  gem 'cucumber-rails', '~> 1.5.0' , require: false
   gem 'simplecov', '0.14.1', require: false
 end
 
