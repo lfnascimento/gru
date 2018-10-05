@@ -6,7 +6,7 @@ div class='center jumbotron'
   
   div class='row'
     div class='col-sm'
-      = link_to t('.order_link'), '#', class: 'btn btn-lg btn-primary'
+      = link_to t('.order_link'), new_order_path, class: 'btn btn-lg btn-primary'
     - unless user_signed_in?
       div class='col-sm'
         = link_to t('.facebook_sign_in_button'), user_facebook_omniauth_authorize_path, class: 'btn btn-lg btn-secondary'
