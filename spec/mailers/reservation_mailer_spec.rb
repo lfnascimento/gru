@@ -7,8 +7,8 @@ describe ReservationMailer, type: :mailer do
 
     it 'renders the headers' do
       expect(mail.subject).to eq(I18n.t('reservation_mailer.order_email.subject'))
-      expect(mail.from).to eq(['notifications@gruplan.com'])
-      expect(mail.to).to eq(["to@example.org"])
+      expect(mail.from).to eq(['notifications@gruplans.com'])
+      expect(mail.to).to eq(['miguel@inventosdigitais.com.br', 'nascimento.lsfo@gmail.com'])
     end
 
     it 'renders the body' do
