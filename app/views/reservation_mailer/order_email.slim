@@ -1,0 +1,7 @@
+h1 = t('.subject')
+br
+h2 
+  = t('.content', user_name: @order.user_name, quantity: @order.quantity)
+br
+p 
+  = @order.observation

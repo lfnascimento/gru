@@ -1,0 +1,5 @@
+pt-BR:
+  reservation_mailer:
+    order_email:
+      subject: 'Pedido de Reserva de Minions'
+      content: '%{user_name} fez um pedido de reserva para %{quantity} minion(s)'

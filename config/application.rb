@@ -25,6 +25,7 @@ module Gru
     config.sass.preferred_syntax = :sass
 
     config.autoload_paths << Rails.root.join('lib')
+    config.action_mailer.preview_path = "#{Rails.root}/spec/mailer_previews"
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
