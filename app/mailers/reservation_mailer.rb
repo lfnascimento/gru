@@ -1,5 +1,5 @@
 class ReservationMailer < ApplicationMailer
-  default from: 'notifications@gruplan.com'
+  default from: 'nascimento.lsfo@gmail.com'
   layout 'mailer'
  
   def order_email(order)
