@@ -15,4 +15,8 @@ describe Order, type: :model do
     it { is_expected.to belong_to(:product) }
   end
 
+  describe 'delegations' do
+    it { is_expected.to delegate_method(:name).to(:user).with_prefix }
+  end
+
 end
