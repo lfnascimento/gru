@@ -9,7 +9,7 @@ describe Users::OmniauthCallbacksController, type: :controller do
       request.env['omniauth.auth'] = OmniAuth.config.mock_auth[:facebook]
       post :facebook, params: { provider: 'facebook' }
     end
-    
+
     it do
       is_expected.to redirect_to root_url
       is_expected.to set_session

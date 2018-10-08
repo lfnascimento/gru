@@ -44,7 +44,7 @@ omniauth_hash = {
   credentials: {
     token: 'ABCDEF...',
     expires_at: 1321747205,
-    expires: true 
+    expires: true
   },
   extra: {
     raw_info: {

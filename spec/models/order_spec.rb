@@ -1,9 +1,9 @@
 require 'rails_helper'
 
 describe Order, type: :model do
-  
+
   describe 'validations' do
-    it do 
+    it do
       is_expected.to validate_numericality_of(:quantity)
         .only_integer
         .is_greater_than(0)

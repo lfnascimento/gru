@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe Product, type: :model do
-  
+
   describe 'validations' do
     it { is_expected.to validate_presence_of(:short_description) }
     it { is_expected.to validate_presence_of(:serial_number) }

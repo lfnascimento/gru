@@ -1,7 +1,7 @@
 RSpec.configure do |config|
   if ENV['coverage'] == 'on'
     require 'simplecov'
-    
+
     SimpleCov.start 'rails' do
     minimum_coverage 100
     end

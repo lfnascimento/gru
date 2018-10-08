@@ -1,4 +1,5 @@
 class CreateProducts < ActiveRecord::Migration[5.1]
+
   def change
     create_table :products do |t|
       t.string :serial_number, null: false, default: ''
@@ -10,4 +11,5 @@ class CreateProducts < ActiveRecord::Migration[5.1]
 
     add_index :products, :serial_number, unique: true
   end
+
 end

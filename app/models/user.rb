@@ -1,7 +1,7 @@
 class User < ApplicationRecord
 
   devise :omniauthable, omniauth_providers: %i[facebook]
-  
+
   validates :email, :uid, presence: true
 
   def self.from_omniauth(auth)
