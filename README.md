@@ -1,6 +1,4 @@
-# Gru (inventos-digitais-challenge)
-
-Project from Inventos Digitais developer challenge
+# Gru
 
 To run this project you need to have:
 
